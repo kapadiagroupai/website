@@ -103,6 +103,27 @@ header.shadow .login{
     transition: 0.3s;
 }
 
+/*sign in*/
+.signin {
+    padding: 8px 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 4px;
+    background: var(--white-color);
+    color: var(--second-color);
+}
+
+.signin span {
+    color:var(--container-color);
+}
+
+.signin:hover {
+    background: rgb(253, 187, 48);
+    transition: 0.3s;
+}
+
+/*endsignin*/
+
 .home {
     width: 100%;
     min-height: 440px;

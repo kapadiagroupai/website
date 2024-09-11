@@ -4,7 +4,7 @@ $(document).ready(function () {
     $(".filter-item").click(function () {
         const value = $(this).attr("data-filter");
         console.log("Filtering by:", value);
-
+            
         if (value == "all") {
             $(".post-box").show("1000");
         } else {
